@@ -1,6 +1,6 @@
 **Data Cleanup steps:**
 
-1- Use rbind() for both X and Y dataset to combine the test and train data in one dataset  
+1- Use rbind() to combine the test and train data in one dataset for X, Y and subject datasets 
 2- Use Colnames() to give meaningful variable names for the X dataset using the features dataset  
 3- Create a subset of the data using grep() to extract  the measurements on the mean and standard deviation only for each measurement  
 4- Add a new column containing descriptive activity names to name the activities in the data set using cbind() with the activty labels and Y datasets  
